@@ -1,0 +1,2 @@
+# NetCoreApplications
+Applications
