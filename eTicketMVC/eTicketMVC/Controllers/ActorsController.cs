@@ -21,5 +21,13 @@ namespace eTicketMVC.Controllers
             var actors = await _service.GetAll();
             return View(actors);
         }
+
+        //Get: Actors/Get
+        public IActionResult Create() 
+        {
+            return View();  
+        }
+
+
     }
 }

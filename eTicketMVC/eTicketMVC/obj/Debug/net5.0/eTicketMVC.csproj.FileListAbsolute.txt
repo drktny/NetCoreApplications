@@ -70,3 +70,4 @@ C:\Users\User\Desktop\Yeni klasör (6)\eTicketMVC\eTicketMVC\obj\Debug\net5.0\Ra
 C:\Users\User\Desktop\Yeni klasör (6)\eTicketMVC\eTicketMVC\obj\Debug\net5.0\Razor\Views\Producers\Index.cshtml.g.cs
 C:\Users\User\Desktop\Yeni klasör (6)\eTicketMVC\eTicketMVC\obj\Debug\net5.0\Razor\Views\Cinemas\Index.cshtml.g.cs
 C:\Users\User\Desktop\Yeni klasör (6)\eTicketMVC\eTicketMVC\obj\Debug\net5.0\Razor\Views\Movies\Index.cshtml.g.cs
+C:\Users\User\Desktop\Yeni klasör (6)\eTicketMVC\eTicketMVC\obj\Debug\net5.0\Razor\Views\Actors\Create.cshtml.g.cs
