@@ -1,5 +1,6 @@
 ﻿using eTicketMVC.Data;
 using eTicketMVC.Data.Services;
+using eTicketMVC.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -28,6 +29,18 @@ namespace eTicketMVC.Controllers
             return View();  
         }
 
+        [HttpPost]
+        public async Task<IActionResult> Create([Bind("FullName,ProfilePictureURL,Bio")]Actor actor)
+        {
+            if (!ModelState.IsValid)
+            {
+                return View(actor);
+            }
+
+            _service.Add(actor);
+            return RedirectToAction(nameof(Index));
+
+        }
 
     }
 }
